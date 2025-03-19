@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8; /* Mayor interlineado para mejor legibilidad */
+  color: #333;
+  font-size: 18px; /* Tamaño de fuente base más grande */
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 4rem; /* Tamaño grande para el título principal */
+}
+
+h2 {
+  font-size: 2.8rem; /* Tamaño grande para subtítulos */
+  margin-bottom: 30px; /* Más espacio debajo de los subtítulos */
+}
+
+h3 {
+  font-size: 2rem; /* Tamaño grande para títulos de sección */
+}
+
+/* Párrafos */
+p {
+  font-size: 1.5rem; /* Tamaño de fuente más grande para párrafos */
+  line-height: 1.8; /* Mayor interlineado */
+}
+.lead{
+  font-size: 1.5rem; /* Tamaño de fuente más grande para párrafos */
+}
+
+/* Barra de Navegación */
+.navbar-brand {
+  font-size: 1.5rem; /* Tamaño de fuente más grande para el nombre en la barra */
+}
+
+.nav-link {
+  font-size: 1.5rem; /* Tamaño de fuente más grande para los enlaces */
+}
+
+/* Botones */
+.btn {
+  font-size: 1.2rem; /* Tamaño de fuente más grande para botones */
+  padding: 10px 20px; /* Más espacio interno */
+}
+
+
+
+/* Footer */
+footer {
+  font-size: 1.1rem; /* Tamaño de fuente más grande para el pie de página */
+}
+
+/* Tarjetas de proyectos */
+.card-title {
+  font-size: 1.8rem; /* Tamaño grande para títulos de tarjetas */
+}
+
+.card-text {
+  font-size: 1.1rem; /* Tamaño de fuente más grande para texto de tarjetas */
+}
+
+.mb-0{
+  font-size: 1.1rem; /* Tamaño de fuente más grande para texto de tarjetas */
+}
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem; /* Tamaño más pequeño para móviles */
+  }
+
+  h2 {
+    font-size: 2rem; /* Tamaño más pequeño para móviles */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Tamaño más pequeño para móviles */
+  }
+
+  p {
+    font-size: 5rem; /* Tamaño más pequeño para móviles */
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem; /* Tamaño más pequeño para móviles */
+  }
+
+  .nav-link {
+    font-size: 1rem; /* Tamaño más pequeño para móviles */
+  }
+
+  .btn {
+    font-size: 1rem; /* Tamaño más pequeño para móviles */
+  }
+
+  footer {
+    font-size: 1rem; /* Tamaño más pequeño para móviles */
+  }
+}
